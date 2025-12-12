@@ -80,7 +80,7 @@ def new_logger(logger_name: str, rel_dir_path: str, log_level=logging.DEBUG) -> 
     return logger
 
 # Utilities Module-Wide Logging
-util_logger = new_logger(__name__, 'logs/utils')
+util_logger = new_logger(__name__, 'logs')
 
 def save_atomic(df: pd.DataFrame, data_path: Path, fmt: str = "parquet") -> Path:
     """Implements an atomic save design pattern that will prevent users from seeing partially written files.

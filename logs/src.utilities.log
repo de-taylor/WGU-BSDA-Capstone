@@ -1,0 +1,75 @@
+2025-12-11 12:09:31 -0600 | DEBUG | src.utilities | Created temporary file loan_approval_data_2025.orig.parquet.tmp
+2025-12-11 12:09:32 -0600 | INFO | src.utilities | Saved content to loan_approval_data_2025.orig.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:09:32 -0600 | INFO | src.utilities | loan_approval_data_2025.orig.parquet is now the new version.
+2025-12-11 12:37:28 -0600 | DEBUG | src.utilities | Created temporary file loan_approval_data_2025.clean.parquet.tmp
+2025-12-11 12:37:28 -0600 | INFO | src.utilities | Saved content to loan_approval_data_2025.clean.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:37:28 -0600 | INFO | src.utilities | loan_approval_data_2025.clean.parquet is now the new version.
+2025-12-11 12:38:15 -0600 | DEBUG | src.utilities | Created temporary file loan_approval_data_2025.clean.parquet.tmp
+2025-12-11 12:38:15 -0600 | INFO | src.utilities | Saved content to loan_approval_data_2025.clean.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:38:15 -0600 | INFO | src.utilities | loan_approval_data_2025.clean.parquet is now the new version.
+2025-12-11 12:55:49 -0600 | DEBUG | src.utilities | Created temporary file model_agg_results_support-vector-machine.wip.parquet.tmp
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | Saved content to model_agg_results_support-vector-machine.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | model_agg_results_support-vector-machine.wip.parquet is now the new version.
+2025-12-11 12:55:49 -0600 | DEBUG | src.utilities | Created temporary file model_preds_support-vector-machine.wip.parquet.tmp
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | Saved content to model_preds_support-vector-machine.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | model_preds_support-vector-machine.wip.parquet is now the new version.
+2025-12-11 12:55:49 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.wip.parquet.tmp
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | Saved content to model_metrics.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | model_metrics.wip.parquet is now the new version.
+2025-12-11 12:55:49 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.wip.parquet.tmp
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | Saved content to model_predictions.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:49 -0600 | INFO | src.utilities | model_predictions.wip.parquet is now the new version.
+2025-12-11 12:55:54 -0600 | DEBUG | src.utilities | Created temporary file model_agg_results_logistic-regression.wip.parquet.tmp
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | Saved content to model_agg_results_logistic-regression.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | model_agg_results_logistic-regression.wip.parquet is now the new version.
+2025-12-11 12:55:54 -0600 | DEBUG | src.utilities | Created temporary file model_preds_logistic-regression.wip.parquet.tmp
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | Saved content to model_preds_logistic-regression.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | model_preds_logistic-regression.wip.parquet is now the new version.
+2025-12-11 12:55:54 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.wip.parquet.tmp
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | Saved content to model_metrics.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | model_metrics.wip.parquet is now the new version.
+2025-12-11 12:55:54 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.wip.parquet.tmp
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | Saved content to model_predictions.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:54 -0600 | INFO | src.utilities | model_predictions.wip.parquet is now the new version.
+2025-12-11 12:55:57 -0600 | DEBUG | src.utilities | Created temporary file model_agg_results_gaussian-naive-bayes.wip.parquet.tmp
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | Saved content to model_agg_results_gaussian-naive-bayes.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | model_agg_results_gaussian-naive-bayes.wip.parquet is now the new version.
+2025-12-11 12:55:57 -0600 | DEBUG | src.utilities | Created temporary file model_preds_gaussian-naive-bayes.wip.parquet.tmp
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | Saved content to model_preds_gaussian-naive-bayes.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | model_preds_gaussian-naive-bayes.wip.parquet is now the new version.
+2025-12-11 12:55:57 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.wip.parquet.tmp
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | Saved content to model_metrics.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | model_metrics.wip.parquet is now the new version.
+2025-12-11 12:55:57 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.wip.parquet.tmp
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | Saved content to model_predictions.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:55:57 -0600 | INFO | src.utilities | model_predictions.wip.parquet is now the new version.
+2025-12-11 12:56:43 -0600 | DEBUG | src.utilities | Created temporary file model_agg_results_adaptive-boosting.wip.parquet.tmp
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | Saved content to model_agg_results_adaptive-boosting.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | model_agg_results_adaptive-boosting.wip.parquet is now the new version.
+2025-12-11 12:56:43 -0600 | DEBUG | src.utilities | Created temporary file model_preds_adaptive-boosting.wip.parquet.tmp
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | Saved content to model_preds_adaptive-boosting.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | model_preds_adaptive-boosting.wip.parquet is now the new version.
+2025-12-11 12:56:43 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.wip.parquet.tmp
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | Saved content to model_metrics.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | model_metrics.wip.parquet is now the new version.
+2025-12-11 12:56:43 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.wip.parquet.tmp
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | Saved content to model_predictions.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:43 -0600 | INFO | src.utilities | model_predictions.wip.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_agg_results_random-forest.wip.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_agg_results_random-forest.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_agg_results_random-forest.wip.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_preds_random-forest.wip.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_preds_random-forest.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_preds_random-forest.wip.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.wip.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_metrics.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_metrics.wip.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.wip.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_predictions.wip.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_predictions.wip.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_metrics.final.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_metrics.final.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_metrics.final.parquet is now the new version.
+2025-12-11 12:56:48 -0600 | DEBUG | src.utilities | Created temporary file model_predictions.final.parquet.tmp
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | Saved content to model_predictions.final.parquet.tmp successfully, performing atomic swap.
+2025-12-11 12:56:48 -0600 | INFO | src.utilities | model_predictions.final.parquet is now the new version.

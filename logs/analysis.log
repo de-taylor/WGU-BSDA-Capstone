@@ -1,0 +1,77 @@
+2025-12-11 12:09:29 -0600 | INFO | analysis | Attempting to fetch data from 'C:\Users\dalla\OneDrive\Education\WGU\Capstone\data\Loan_approval_data_2025.csv'
+2025-12-11 12:09:30 -0600 | INFO | analysis | Successfully created DataFrame (50000, 20)
+2025-12-11 12:38:15 -0600 | INFO | analysis | Saved the clean dataset to data\loan_approval_data_2025.clean.parquet (50000, 18)
+2025-12-11 12:43:26 -0600 | INFO | analysis | Starting inference training pipeline for all models
+2025-12-11 12:43:26 -0600 | DEBUG | analysis | Created OneHotEncoder for columns ['occupation_status', 'product_type', 'loan_intent']
+2025-12-11 12:43:26 -0600 | DEBUG | analysis | Created StandardScaler for columns ['age' 'years_employed' 'annual_income' 'credit_score'
+ 'credit_history_years' 'savings_assets' 'current_debt' 'defaults_on_file'
+ 'delinquencies_last_2yrs' 'derogatory_marks' 'loan_amount'
+ 'interest_rate' 'debt_to_income_ratio' 'loan_to_income_ratio']
+2025-12-11 12:43:26 -0600 | DEBUG | analysis | Created ColumnTransformer for categorical and numerical preprocessing with all above columns. Any other columns will be dropped.
+2025-12-11 12:53:45 -0600 | INFO | analysis | Loading the final results and predictions from the last full run from disk.
+2025-12-11 12:54:46 -0600 | DEBUG | analysis | Training iteration with Support Vector Machine as the inference model.
+2025-12-11 12:54:46 -0600 | INFO | analysis | Starting nested cross-validation for Support Vector Machine
+2025-12-11 12:54:46 -0600 | INFO | analysis | Using parameter grid for GridSearchCV: {'clf__C': [1.0], 'clf__kernel': ['rbf'], 'clf__gamma': ['scale']}
+2025-12-11 12:55:49 -0600 | DEBUG | analysis | Results DataFrame for Support Vector Machine is complete with shape (10, 8)
+2025-12-11 12:55:49 -0600 | INFO | analysis | Saving the results from the Support Vector Machine training runs to data\_test\_saves\model_agg_results_support-vector-machine.wip.parquet for safe-keeping.
+2025-12-11 12:55:49 -0600 | INFO | analysis | Saving the predictions from the Support Vector Machine training runs to data\_test\_saves\model_preds_support-vector-machine.wip.parquet for safe-keeping.
+2025-12-11 12:55:49 -0600 | DEBUG | analysis | Initialized all_results DataFrame from the Support Vector Machine _result DataFrame.
+2025-12-11 12:55:49 -0600 | DEBUG | analysis | Initialized all_predictions DataFrame from the Support Vector Machine _pred DataFrame
+2025-12-11 12:55:49 -0600 | INFO | analysis | Saving the results from all currently completed training runs to data\_test\_saves\model_metrics.wip.parquet for safe-keeping.
+2025-12-11 12:55:49 -0600 | INFO | analysis | Saving the predictions from all currently completed training runs to data\_test\_saves\model_predictions.wip.parquet for safe-keeping.
+2025-12-11 12:55:49 -0600 | DEBUG | analysis | Training iteration with Logistic Regression as the inference model.
+2025-12-11 12:55:49 -0600 | INFO | analysis | Starting nested cross-validation for Logistic Regression
+2025-12-11 12:55:49 -0600 | INFO | analysis | Using parameter grid for GridSearchCV: {'clf__C': [1.0], 'clf__solver': ['lbfgs'], 'clf__max_iter': [1000]}
+2025-12-11 12:55:54 -0600 | DEBUG | analysis | Results DataFrame for Logistic Regression is complete with shape (10, 8)
+2025-12-11 12:55:54 -0600 | INFO | analysis | Saving the results from the Logistic Regression training runs to data\_test\_saves\model_agg_results_logistic-regression.wip.parquet for safe-keeping.
+2025-12-11 12:55:54 -0600 | INFO | analysis | Saving the predictions from the Logistic Regression training runs to data\_test\_saves\model_preds_logistic-regression.wip.parquet for safe-keeping.
+2025-12-11 12:55:54 -0600 | DEBUG | analysis | Added the Logistic Regression _result DataFrame to the existing all_results DataFrame. Current shape: (20, 8)
+2025-12-11 12:55:54 -0600 | DEBUG | analysis | Added the Logistic Regression _pred DataFrame to the existing all_predictions DataFrame. Current shape: (20, 6)
+2025-12-11 12:55:54 -0600 | INFO | analysis | Saving the results from all currently completed training runs to data\_test\_saves\model_metrics.wip.parquet for safe-keeping.
+2025-12-11 12:55:54 -0600 | INFO | analysis | Saving the predictions from all currently completed training runs to data\_test\_saves\model_predictions.wip.parquet for safe-keeping.
+2025-12-11 12:55:54 -0600 | DEBUG | analysis | Training iteration with Gaussian Naive Bayes as the inference model.
+2025-12-11 12:55:54 -0600 | INFO | analysis | Starting nested cross-validation for Gaussian Naive Bayes
+2025-12-11 12:55:54 -0600 | INFO | analysis | Using parameter grid for GridSearchCV: {'clf__var_smoothing': [1.0]}
+2025-12-11 12:55:57 -0600 | DEBUG | analysis | Results DataFrame for Gaussian Naive Bayes is complete with shape (10, 8)
+2025-12-11 12:55:57 -0600 | INFO | analysis | Saving the results from the Gaussian Naive Bayes training runs to data\_test\_saves\model_agg_results_gaussian-naive-bayes.wip.parquet for safe-keeping.
+2025-12-11 12:55:57 -0600 | INFO | analysis | Saving the predictions from the Gaussian Naive Bayes training runs to data\_test\_saves\model_preds_gaussian-naive-bayes.wip.parquet for safe-keeping.
+2025-12-11 12:55:57 -0600 | DEBUG | analysis | Added the Gaussian Naive Bayes _result DataFrame to the existing all_results DataFrame. Current shape: (30, 8)
+2025-12-11 12:55:57 -0600 | DEBUG | analysis | Added the Gaussian Naive Bayes _pred DataFrame to the existing all_predictions DataFrame. Current shape: (30, 6)
+2025-12-11 12:55:57 -0600 | INFO | analysis | Saving the results from all currently completed training runs to data\_test\_saves\model_metrics.wip.parquet for safe-keeping.
+2025-12-11 12:55:57 -0600 | INFO | analysis | Saving the predictions from all currently completed training runs to data\_test\_saves\model_predictions.wip.parquet for safe-keeping.
+2025-12-11 12:55:57 -0600 | DEBUG | analysis | Training iteration with Adaptive Boosting as the inference model.
+2025-12-11 12:55:57 -0600 | INFO | analysis | Starting nested cross-validation for Adaptive Boosting
+2025-12-11 12:55:57 -0600 | INFO | analysis | Using parameter grid for GridSearchCV: {'clf__n_estimators': [50], 'clf__learning_rate': [0.1]}
+2025-12-11 12:56:43 -0600 | DEBUG | analysis | Results DataFrame for Adaptive Boosting is complete with shape (10, 8)
+2025-12-11 12:56:43 -0600 | INFO | analysis | Saving the results from the Adaptive Boosting training runs to data\_test\_saves\model_agg_results_adaptive-boosting.wip.parquet for safe-keeping.
+2025-12-11 12:56:43 -0600 | INFO | analysis | Saving the predictions from the Adaptive Boosting training runs to data\_test\_saves\model_preds_adaptive-boosting.wip.parquet for safe-keeping.
+2025-12-11 12:56:43 -0600 | DEBUG | analysis | Added the Adaptive Boosting _result DataFrame to the existing all_results DataFrame. Current shape: (40, 8)
+2025-12-11 12:56:43 -0600 | DEBUG | analysis | Added the Adaptive Boosting _pred DataFrame to the existing all_predictions DataFrame. Current shape: (40, 6)
+2025-12-11 12:56:43 -0600 | INFO | analysis | Saving the results from all currently completed training runs to data\_test\_saves\model_metrics.wip.parquet for safe-keeping.
+2025-12-11 12:56:43 -0600 | INFO | analysis | Saving the predictions from all currently completed training runs to data\_test\_saves\model_predictions.wip.parquet for safe-keeping.
+2025-12-11 12:56:43 -0600 | DEBUG | analysis | Training iteration with Random Forest as the inference model.
+2025-12-11 12:56:43 -0600 | INFO | analysis | Starting nested cross-validation for Random Forest
+2025-12-11 12:56:43 -0600 | INFO | analysis | Using parameter grid for GridSearchCV: {'clf__n_estimators': [1, 10], 'clf__max_features': ['sqrt'], 'clf__max_depth': [1], 'clf__min_samples_split': [2]}
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Results DataFrame for Random Forest is complete with shape (10, 8)
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the results from the Random Forest training runs to data\_test\_saves\model_agg_results_random-forest.wip.parquet for safe-keeping.
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the predictions from the Random Forest training runs to data\_test\_saves\model_preds_random-forest.wip.parquet for safe-keeping.
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Added the Random Forest _result DataFrame to the existing all_results DataFrame. Current shape: (50, 8)
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Added the Random Forest _pred DataFrame to the existing all_predictions DataFrame. Current shape: (50, 6)
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the results from all currently completed training runs to data\_test\_saves\model_metrics.wip.parquet for safe-keeping.
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the predictions from all currently completed training runs to data\_test\_saves\model_predictions.wip.parquet for safe-keeping.
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the final results of training to data\_test\model_metrics.final.parquet.
+2025-12-11 12:56:48 -0600 | INFO | analysis | Saving the final predictions from training to data\_test\model_predictions.final.parquet.
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Both the final predictions and final results have been saved. Clearing temporary storage files.
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_agg_results_support-vector-machine.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_preds_support-vector-machine.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_metrics.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_predictions.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_agg_results_logistic-regression.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_preds_logistic-regression.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_agg_results_gaussian-naive-bayes.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_preds_gaussian-naive-bayes.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_agg_results_adaptive-boosting.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_preds_adaptive-boosting.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_agg_results_random-forest.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp file data\_test\_saves\model_preds_random-forest.wip.parquet
+2025-12-11 12:56:48 -0600 | DEBUG | analysis | Removed temp directory data/_test/_saves
