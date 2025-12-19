@@ -1,8 +1,9 @@
-"""The utilities module provides common utilities used throughout the Capstone project.
+"""
+src.utilities provides common utilities used throughout the Capstone project.
 
 This project contains common functions that are vital to the overall success of the Capstone project. Rather than duplicating code, this sub-module was created in order to smooth over the development process, and provide standardization for common tasks.
 
-The functions in this module include creating a uniform logger, robustly loading data from the FRED API, and committing data files to Weights&Biases as needed.
+The functions in this module include creating a uniform logger and saving data to disk in a robust fashion.
 """
 # Imports
 import logging
