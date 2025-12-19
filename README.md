@@ -14,13 +14,15 @@ This project has been made available to showcase the `analysis.ipynb` notebook t
 
 Please feel free to contact me with any questions regarding its contents.
 
-## Project Summary
+## Project Overview
+
+### Summary
 
 When multiple classification models are trained on the same dataset, how can a machine learning practitioner demonstrate that the performance differences between models, where they exist, are statistically significant?
 
 This report describes a training and evaluation method that can be used to directly compare any number of classification models using McNemar’s test, a special case $χ^2$ test. When paired with direct comparison of performance metrics, the results from McNemar’s test can aid machine learning practitioners in determining whether performance metrics should be the most important consideration in model selection.
 
-## Development Environment
+### Development Environment
 
 **Operating System:** Windows 11, 10.0.26200
 
@@ -47,11 +49,11 @@ This report describes a training and evaluation method that can be used to direc
 * `statsmodels`, 0.14.6
 * `tqdm`, 4.67.1
 
-## Training Dataset
+### Training Dataset
 
 [Realistic Loan Approval Dataset | US & Canada](https://www.kaggle.com/datasets/parthpatel2130/realistic-loan-approval-dataset-us-and-canada) by [Parth Patel](https://www.kaggle.com/parthpatel2130).
 
-## Key References
+### Key References
 
 1. Dietterich, T. G. (1998). Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms. Neural Computation, 10(7), 1895–1923. https://doi.org/10.1162/089976698300017197
 
