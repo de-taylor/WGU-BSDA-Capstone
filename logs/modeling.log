@@ -1,0 +1,16 @@
+2025-12-18 20:40:25 -0600 | INFO | modeling | Starting inference training pipeline for all models
+2025-12-18 20:40:25 -0600 | DEBUG | modeling | Created OneHotEncoder for columns ['occupation_status', 'product_type', 'loan_intent']
+2025-12-18 20:40:25 -0600 | DEBUG | modeling | Created StandardScaler for columns ['age' 'years_employed' 'annual_income' 'credit_score'
+ 'credit_history_years' 'savings_assets' 'current_debt' 'defaults_on_file'
+ 'delinquencies_last_2yrs' 'derogatory_marks' 'loan_amount'
+ 'interest_rate' 'debt_to_income_ratio' 'loan_to_income_ratio']
+2025-12-18 20:40:25 -0600 | DEBUG | modeling | Created ColumnTransformer for categorical and numerical preprocessing with all above columns. Any other columns will be dropped.
+2025-12-18 20:40:25 -0600 | INFO | modeling | Loading the final results and predictions from the last full run from disk.
+2025-12-18 20:42:39 -0600 | INFO | modeling | Starting inference training pipeline for all models
+2025-12-18 20:42:39 -0600 | DEBUG | modeling | Created OneHotEncoder for columns ['occupation_status', 'product_type', 'loan_intent']
+2025-12-18 20:42:39 -0600 | DEBUG | modeling | Created StandardScaler for columns ['age' 'years_employed' 'annual_income' 'credit_score'
+ 'credit_history_years' 'savings_assets' 'current_debt' 'defaults_on_file'
+ 'delinquencies_last_2yrs' 'derogatory_marks' 'loan_amount'
+ 'interest_rate' 'debt_to_income_ratio' 'loan_to_income_ratio']
+2025-12-18 20:42:39 -0600 | DEBUG | modeling | Created ColumnTransformer for categorical and numerical preprocessing with all above columns. Any other columns will be dropped.
+2025-12-18 20:42:39 -0600 | INFO | modeling | Loading the final results and predictions from the last full run from disk.
